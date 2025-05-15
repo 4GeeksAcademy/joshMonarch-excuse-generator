@@ -1,5 +1,31 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+span {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    margin-top: 200px;
+}
+
+button, p {
+  position: absolute;  
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+p {
+    display: block;
+    bottom: 45%; 
+    text-align: center;
+    font: 25px fantasy;
+}
+
+button {
+    bottom: 15%;
 }
